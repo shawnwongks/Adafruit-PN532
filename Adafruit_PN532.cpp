@@ -793,8 +793,8 @@ bool Adafruit_PN532::inListPassiveTarget() {
       }
 
       _inListedTag = pn532_packetbuffer[8];
-      PN532DEBUGPRINT.print(F("Tag number: "));
-      PN532DEBUGPRINT.println(_inListedTag);
+//      PN532DEBUGPRINT.print(F("Tag number: ")); //CHANGE HERE
+//      PN532DEBUGPRINT.println(_inListedTag); // CHANGE HERE
 
       return true;
     } else {
